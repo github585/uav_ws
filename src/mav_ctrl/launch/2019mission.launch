@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find mavros)/launch/px4.launch"/>
+    <node pkg="vision_task" type="vo_node" name="vo_node" output="log" required = "true"/>
+    <node pkg="vision_task" type="apriltag_pixel_node" name="apriltag_pixel_node" output="log"/>
+    <node pkg="mav_ctrl" type="px4_mavros_run.py" name="px4_mavros_run" output="screen"/>
+    <node pkg="mav_ctrl" type="search_apriltag_horizon.py" name="search_apriltag_horizon" output="screen"/>
+</launch>

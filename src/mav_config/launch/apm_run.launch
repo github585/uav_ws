@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find mavros)/launch/apm.launch"/>
+    <node pkg="mav_config" name="origin_publisher" type="set_origin.py"/>
+    <node pkg="vision_task" name="vo_node" type="vo_node"/>
+</launch>

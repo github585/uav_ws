@@ -1,0 +1,2 @@
+vision_task
+-DCATKIN_DEVEL_PREFIX=/home/pi/uav_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pi/uav_ws/install -G Unix Makefiles

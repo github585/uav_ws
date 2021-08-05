@@ -1,0 +1,14 @@
+<package>
+  <description brief="mav_ctrl">
+
+     mav_ctrl
+
+  </description>
+  <author>Vlodemort</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/mav_ctrl</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+
+</package>
